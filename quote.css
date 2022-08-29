@@ -1,0 +1,53 @@
+body {
+    background-color: rgb(122, 201, 229);
+    background-image: url('background-image1.jpeg');
+}
+
+
+#quote-box {
+    color: rgb(140, 77, 154);
+    margin: auto;
+    width: 550px;
+    background-color: white;
+    margin-top: 100px;
+    border-radius: 15px;
+    position: relative;
+    opacity: 90%;
+}
+
+#author::before {
+    content: "- ";
+}
+
+#text{
+    margin: 15px;
+    padding: 25px;
+    width: 450px;
+    height: auto;
+    font-family: quicksand;
+    font-size: 30px;
+    text-align: center;
+}
+#author {
+    margin-left: 300px;
+    margin-right: 30px;
+    font-size: 20px;
+    padding-top: 20px;
+    height: auto;
+}
+
+button {
+    padding: 7px;
+    margin-bottom: 20px;
+   
+}
+#tweet-quote {
+    margin-left: 35px;
+    margin-top: 40px;
+}
+#new-quote {
+    margin-left: 275px;
+}
+#facebook-quote {
+    width: 30px;
+}
