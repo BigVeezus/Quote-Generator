@@ -1,5 +1,4 @@
 body {
-    background-color: rgb(122, 201, 229);
     background-image: url('background-image1.jpeg');
 }
 
@@ -27,6 +26,7 @@ body {
     font-family: quicksand;
     font-size: 30px;
     text-align: center;
+    font-weight: 400;
 }
 #author {
     margin-left: 300px;
@@ -34,6 +34,7 @@ body {
     font-size: 20px;
     padding-top: 20px;
     height: auto;
+    font-weight: lighter;
 }
 
 button {
@@ -46,8 +47,31 @@ button {
     margin-top: 40px;
 }
 #new-quote {
-    margin-left: 275px;
+    margin-left: 290px;
 }
 #facebook-quote {
     width: 30px;
+    background-color:#3b5998 ;
+    border: 0;
+    margin-left: 5px;
+}
+
+#tweet-quote {
+    background-color: #00acee;
+    border: 0;
+    width: 30px;
+}
+
+.facebook {   
+    color: white;  
+}         
+.twitter {   
+    color: white;   
+}
+
+#facebook-quote:hover {
+  background-color: #2f4063;
+}
+#tweet-quote:hover {
+    background-color: #157ca5;
 }
