@@ -46,9 +46,20 @@ button {
     margin-left: 35px;
     margin-top: 40px;
 }
+
 #new-quote {
+    background-color: rgb(41, 103, 229);
+    color: white;
+    border: 1px solid rgb(116, 116, 142);
+    border-radius: 4px;
+    cursor: pointer;
     margin-left: 290px;
 }
+
+#new-quote:hover {
+    background-color: rgb(18, 56, 133);
+}
+
 #facebook-quote {
     width: 30px;
     background-color:#3b5998 ;
@@ -71,7 +82,9 @@ button {
 
 #facebook-quote:hover {
   background-color: #2f4063;
+  cursor: pointer;
 }
 #tweet-quote:hover {
     background-color: #157ca5;
+    cursor: pointer;
 }
